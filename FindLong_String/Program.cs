@@ -10,6 +10,7 @@ namespace FindLong_String
             int n = Math.Min(s.Length, t.Length);
             for (int i = 0; i < n; i++)
             {
+                // If characters do not match, return the prefix up to that point
                 if (s[i] != t[i])
                 {
                     return s.Substring(0, i);
