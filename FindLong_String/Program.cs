@@ -18,6 +18,8 @@ namespace FindLong_String
             return s.Substring(0, n);
         }
 
+        //Main method
+        // Very Important method
         static void Main(string[] args)
         {
             String str = "ABABCDE";
